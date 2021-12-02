@@ -183,3 +183,19 @@ select {
 select:focus {
   border-color: var(--color-primary);
 }
+
+hr {
+  border: 0;
+  border-top: 1px solid var(--color-stroke);
+  margin: 4rem auto !important; /* overrides flow rules */
+}
+
+label::after {
+  content: "\A";
+  white-space: pre;
+}
+
+::marker {
+  color: var(--color-mid);
+  font-size: 1.5em;
+}
