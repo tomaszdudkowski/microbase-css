@@ -120,25 +120,6 @@ a:hover {
   text-decoration: none;
 }
 
-:is(h1, h2, h3) {
-  font-weight: 500;
-  line-height: 1.2;
-  max-width: 50ch;
-}
-
-h1 {
-  font-size: 2.25rem;
-}
-
-h2 {
-  font-size: 1.75rem;
-  color: var(--color-mid-dark);
-}
-
-h3 {
-  font-size: 1.25rem;
-}
-
 :is(p, li, blockquote, dl) {
   max-width: 65ch;
 }
