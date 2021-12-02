@@ -155,7 +155,7 @@ code {
   padding: 0.125em 0.25em;
   background: var(--color-off-white);
   border: 1px solid var(--color-stroke);
-  font-family: var(--font-mono);
+  font-family: var(--font-montserrat);
   font-size: 0.85em;
   hyphens: none;
   tab-size: 2;
@@ -165,4 +165,21 @@ code {
   word-wrap: normal;
   box-decoration-break: clone;
   -webkit-box-decoration-break: clone;
+}
+
+figcaption {
+  margin-top: 0.5em;
+  font-weight: normal;
+  text-align: left;
+}
+
+select {
+  padding: 0.5rem;
+  min-width: 12rem;
+  font: inherit;
+  border: 1px solid var(--color-stroke);
+}
+
+select:focus {
+  border-color: var(--color-primary);
 }
