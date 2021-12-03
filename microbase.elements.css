@@ -40,7 +40,7 @@
   /* button */
   
   /* base of button */
-  .button {
+  .btn {
       margin: 1rem;
       cursor: pointer;
       transition: all 0.3s ease;
@@ -50,51 +50,51 @@
       text-decoration: none;
   }
 
-  .button:hover {
+  .btn:hover {
     transition: all 0.3s ease;
   }
 
   /* button size */
-  .button-xs {
+  .btn-xs {
     padding: 8px 25px;
     font-size: 10px;
     width: fit-content;
   }
 
-  .button-s {
+  .btn-s {
     padding: 10px 28px;
     font-size: 12px;
     width: fit-content;
   }
 
-  .button-m {
+  .btn-m {
     padding: 10px 28px;
     font-size: 15px;
     width: fit-content;
   }
 
-  .button-l {
+  .btn-l {
     padding: 10px 28px;
     font-size: 18px;
     width: fit-content;
   }
 
   /* button appearance */
-  .button-dark {
+  .btn-dark {
     background-color: var(--color-mid-dark);
     color: var(--color-light);
   }
 
-  .button-light {
+  .btn-light {
     background-color: var(--color-primary-x-light);
     color: var(--color-dark);
   }
 
-  .button-round {
+  .btn-round {
     border-radius: 15px;
   }
 
-  .button-semi-round {
+  .btn-semi-round {
     border-radius: 4px;
   }
 
@@ -108,4 +108,8 @@
     background-color: rgba(21, 30, 199, 0.1);
     border: 1px solid rgba(32, 33, 36, 0.2);
     color: rgba(255, 255, 255);
+  }
+
+  .btn-glow:hover {
+    box-shadow: rgba(109, 113, 199, 0.5) 0px 0px 10px 0px;
   }
