@@ -1,5 +1,5 @@
 /* imports fonts and reset css */
-@import url("https://unpkg.com/modern-css-reset/dist/reset.min.css");
+@import url("https://csstools.github.io/normalize.css/11.0.0/normalize.css");
 
 /* settings */
 :root {
@@ -102,8 +102,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  background: var(--color-light);
-  color: var(--color-dark);
+  background: var(--color-dark);
+  color: var(--color-light);
   line-height: 1.55;
   letter-spacing: 0.03ch;
 }

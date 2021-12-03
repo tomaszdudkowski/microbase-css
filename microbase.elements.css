@@ -39,9 +39,73 @@
 
   /* button */
   
+  /* base of button */
   .button {
       margin: 1rem;
       cursor: pointer;
-      border-radius: 4px;
       transition: all 0.3s ease;
+      text-align: center;
+      background: var(--color-primary-light);
+      color: var(--color-light);
+      text-decoration: none;
+  }
+
+  .button:hover {
+    transition: all 0.3s ease;
+  }
+
+  /* button size */
+  .button-xs {
+    padding: 8px 25px;
+    font-size: 10px;
+    width: fit-content;
+  }
+
+  .button-s {
+    padding: 10px 28px;
+    font-size: 12px;
+    width: fit-content;
+  }
+
+  .button-m {
+    padding: 10px 28px;
+    font-size: 15px;
+    width: fit-content;
+  }
+
+  .button-l {
+    padding: 10px 28px;
+    font-size: 18px;
+    width: fit-content;
+  }
+
+  /* button appearance */
+  .button-dark {
+    background-color: var(--color-mid-dark);
+    color: var(--color-light);
+  }
+
+  .button-light {
+    background-color: var(--color-primary-x-light);
+    color: var(--color-dark);
+  }
+
+  .button-round {
+    border-radius: 15px;
+  }
+
+  .button-semi-round {
+    border-radius: 4px;
+  }
+
+  .btn-semi-transparent {
+    background-color: rgba(39, 46, 181, 0.15);
+    border: 1px solid rgba(32, 33, 36, 0.25);
+    color: rgba(255, 255, 255, 1);
+  }
+  
+  .btn-semi-transparent:hover {
+    background-color: rgba(21, 30, 199, 0.1);
+    border: 1px solid rgba(32, 33, 36, 0.2);
+    color: rgba(255, 255, 255);
   }
